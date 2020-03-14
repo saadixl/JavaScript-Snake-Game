@@ -1,0 +1,76 @@
+html,body {
+  background: #000;
+}
+
+.grid__container {
+  position: fixed;
+  height: 90%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: #000;
+  box-sizing: border-box;
+  border-bottom: 5px solid #333;
+}
+
+.button__container {
+  position: fixed;
+  height: 10%;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+
+.grid__cell {
+  height: 5%;
+  width: 5%;
+  float: left;
+  background: #000;
+  box-sizing: border-box;
+}
+
+.btn {
+  text-align: center;
+  box-sizing: border-box;
+  height: 25%;
+  width: 25%;
+  padding: 20px;
+  vertical-align: middle;
+  display: table;
+  font-size: 35px;
+  color: #fff;
+}
+
+.up__btn {
+  float: left;
+}
+
+.left__btn {
+  float: left;
+}
+
+.right__btn {
+  float: left;
+}
+
+.down__btn {
+  float: left;
+}
+
+.action__btns {
+  text-align: right;
+  font-size: 30px;
+  width: 100px;
+  height: 50px;
+  z-index: 1;
+  position: fixed;
+  top: 2%;
+  right: 2%;
+  color: #fff;
+  cursor: pointer;
+}
+
+.action__btns .score {
+  font-family: monospace;
+  margin-top: 5px;
+}
