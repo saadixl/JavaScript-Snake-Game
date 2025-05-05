@@ -158,7 +158,7 @@ class Snake {
     clearInterval(this.moveInstance);
     this.soundManager.playAudioIfUnmuted('kill');
     alert("Game over! Play again?");
-    window.location = "/";
+    window.location = "/JavaScript-Snake-Game";
   }
 }
 
